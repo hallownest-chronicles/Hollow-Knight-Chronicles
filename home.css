@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Manrope:wght@400;500&family=Philosopher:wght@400;700&display=swap'); /* подключил стили гугловские всякие */
+.kingdom-art {
+    width: 350px;
+    height: 500px;
+    max-width: 100%;
+    display: flex;
+    margin: 30px auto;
+    object-fit: contain; /*object-fit: contain — изображение целиком помещается в эту область, ничего не обрезается и не растягивается*/
+}
+.kingdoms{
+    display: flex;
+    justify-content: center;
+}
+.kingdom{
+    color: #e8edf7;
+    text-decoration: none;
+}
+h1{
+    font-family: 'Cinzel',serif;
+    margin-top: 40px; /*примерно: отличается от padding тем что создает внешний отступ, а padding внутренний*/
+    text-align: center;
+    font-size: 48px;
+}
+h2, h3{
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
+body{
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
+    line-height: 1.7;
+    color:#d5d5d5;
+    text-align: center;
+    background-color: black;
+    font-family: 'Philosopher', sans-serif;
+}
+.hallownest {
+    color: #b7c9e5;
+}
+
+.pharloom {
+    color: #e8b5c0;
+}
+.kingdom {
+    border: 2px solid transparent;
+    padding: 12px;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+.hallownest:hover {
+    transform: translateY(-5px);
+    border-color: #b7c9e5;
+    box-shadow: 0 0 20px #526d9b;
+}
+.pharloom:hover {
+    transform: translateY(-5px); /*transform позволяет изменять положение, масштаб или поворот элемента.*/
+    border-color: #e8b5c0; /*box-shadow создаёт тень вокруг блока. Мы используем её для свечения.*/
+    box-shadow: 0 0 20px #963e5b; /*  box-shadow здесь работает так:
+                                        - Первое 0 — смещение тени по горизонтали.
+                                        - Второе 0 — смещение по вертикали.
+                                        - 20px — насколько размытой будет тень.
+                                        - #526d9b — её цвет.*/
+}
+h1 {
+    font-family: 'Cinzel', serif;
+}
+
+
+
+
+
+
+
+
+
+
+/*nav {
+    background-color: #11141c;  /* Задний фон у надписи которая выделена <nav> будет темно-синим
+    display: flex; /* display: flex; располагает элементы внутри <nav> в ряд
+    width: 820px;
+    max-width: calc(100%-32px); /*max-width: calc(100% - 32px) не позволит меню вылезать за экран на узких устройствах. Браузер рассчитывает ширину как 100% доступного пространства минус 32 пикселя.
+    margin: 40px auto 0;
+}
+nav a{
+    color: #e8edf7; цвет ссылок которые по факту <a> будет таким-то когда <a> в <nav> 
+    flex: 1; заставляет обе ссылки занимать одинаковую долю свободного пространства
+    text-align: center;  выравнивает текст ссылки по центру 
+    text-decoration: none;  оформление ссылок
+    font-family: 'Cinzel', serif;
+    font-size: 22px;  размер шрифта ссылок 
+    padding: 18px;  размер отступа 
+    border: 2px solid #aebbd0;
+    transition: background-color 0.3s; скорость изменения цвета при наведении курсора на ссылку
+}*/
